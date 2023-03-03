@@ -1,0 +1,205 @@
+body{
+  background-image: url("https://media.istockphoto.com/id/1352105953/photo/pastel-balloons-on-pink-background-3d-rendering-birthday-party-background.jpg?b=1&s=170667a&w=0&k=20&c=WgW8ubSbWgJ88kJEek7Pqm9n7f6SOvvpvr_kQXwEuac=");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:black;
+  font-size: larger;
+}
+.wrapper {
+  display: flex;
+  min-height: 600px;
+
+  border-top: solid 1px;
+}
+.event-details {
+  display: block;
+  border: solid 1px black;
+  position: absolute;
+  left: 150px;
+  top: 100px;width: 400px;
+  background-color: burlywood;
+  padding: 0.6em;
+}
+
+.event-details > form{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.event-details  > form > * {
+  text-align: left;
+  width: 80%;
+  margin-top: 0.4em;
+}
+
+.event-details  > form > input[type="submit"] {
+  width: max-content;
+  padding: 1em;
+  font-weight: bolder;
+  background-color: lime;
+  border: none;
+}
+
+.add-guest {
+
+}
+.search {
+  display: flex;
+  width: max-content;
+  margin: 0.8em;
+  background-color: rgb(169, 255, 143);
+  border-radius: 10px;
+  border: solid 1px;
+
+}
+.search > img {
+  width: 30px;
+  vertical-align: middle;
+  transform: scale(0.8);
+}
+.search > input {
+  min-width: 200px;
+  outline: none;
+  margin-right: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.guest-list-item,.evnt-list-item {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  border-bottom: dotted 1px;
+  padding: 0.3em;
+}
+.guest-list-item > span, .evnt-list-item > span{
+  width: 24%;
+}
+.side-bar {
+ border-right: solid 1px;
+ width: 150px;
+ position: relative;
+}
+.guest-list, .evnt-list {
+  padding: 0.4em;
+}
+.main-content {
+  width: 100%;
+}
+.footer {
+  border-top: solid 1px;
+  position: sticky;
+  bottom: 0;
+}
+.links > a{
+  padding: 4px;
+}
+.links {
+  padding-top: 10px;
+  z-index: 3;
+  background-color: white;
+}
+.headers{
+  font-weight: bold;
+
+}
+.btn{
+  margin-top: 20px;
+  border-radius: 5px;
+
+}
+.event-details, .add-guest{
+  display: block;
+  border: solid 1px black;
+  position: absolute;
+  left: 150px;
+  top: 100px;width: 400px;
+  background-color: burlywood;
+  padding: 0.6em;
+  z-index: 3;
+}
+
+
+.add-guest > form{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.add-guest  > form > * {
+  text-align: left;
+  width: 80%;
+  margin-top: 0.4em;
+}
+
+.add-guest > form > input[type="submit"] {
+  width: max-content;
+  padding: 1em;
+  font-weight: bolder;
+  background-color: lime;
+  border: none;
+}
+.btn-btn {
+  border-radius: 5px;
+  color: red;
+}
+h1{
+  text-align: center;
+  cursor: pointer;
+    margin-top: 0;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        red 0%,
+        orange 12%,
+        yellow 25%,
+        green 45%,
+        blue 67%,
+        indigo 80%,
+        violet 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: white;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
+    font-size: 60px;
+}
+@keyframes textclip {
+  to{
+      background-position: 200% center;
+  }
+}
+.home-page > p{
+  font-size: 1.5em;
+  font-weight:lighter;
+  text-align: center;
+}
+.footer{
+  font-size: 1.0em;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: blue;
+  font-size: large;
+  padding: 0.5em;
+}
+.about{
+  font-size: large;
+  text-align: center;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.contact-details{
+  padding-top: 15px;
+}
+.nav-links{
+  text-align: right;
+}

@@ -1,0 +1,52 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* .side-bar .logo {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.side-bar .logo span {
+  margin-right: 0.5rem;
+  /* TIL you can colorize emoji */
+  /* color: transparent;
+  text-shadow: 0 0 0 var(--magenta);
+  cursor: pointer;
+}
+.side-bar .side-menu {
+  display: none;
+}
+
+.side-bar.open .side-menu {
+  display: block;
+}
+.side-menu li {
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  color: var(--light-gray);
+  cursor: pointer;
+}
+
+.side-menu li span[role="img"] {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: transparent;
+  text-shadow: 0 0 0 var(--light-gray);
+} */ 

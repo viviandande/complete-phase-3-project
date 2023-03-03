@@ -1,0 +1,14 @@
+
+
+require_relative "config/environment"
+require "sinatra/activerecord/rake"
+
+desc  "Run pry console"
+task :console do
+    Pry.start
+end
+
+desc "Launch Server"
+task :server do
+    exec "bundle exec rerun -b 'rackup config.ru'"
+end

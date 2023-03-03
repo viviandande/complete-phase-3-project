@@ -1,0 +1,130 @@
+{
+  "Guests": [
+    {
+      "id": 1,
+      "firstname": "Sharon",
+      "lastname": "Kip",
+      "email": "sharonkipkirui22@gmail.com",
+      "seatno": "9",
+      "typeofaccess": "Standard"
+    },
+    {
+      "id": 2,
+      "firstname": "Vivian",
+      "lastname": "Adhiambo",
+      "email": "viviandande@gmail.com",
+      "seatno": "2",
+      "typeofaccess": "VIP"
+    },
+    {
+      "id": 4,
+      "firstname": "Lilian",
+      "lastname": "Njoki",
+      "email": "liliannjoki111@gmail.com",
+      "seatno": "3",
+      "typeofaccess": "VIP"
+    },
+    {
+      "firstname": "Liza",
+      "lastname": "Gordon",
+      "email": "lgordon@gmail.com",
+      "seatno": "15",
+      "typeofaccess": "standard",
+      "id": 6
+    },
+    {
+      "firstname": "Meghan",
+      "lastname": "Car",
+      "email": "carolm15@gmail.com",
+      "seatno": "9",
+      "typeofaccess": "standard",
+      "id": 7
+    },
+    {
+      "firstname": "Adam",
+      "lastname": "Hills",
+      "email": "hillsadam@gmail.com",
+      "seatno": "13",
+      "typeofaccess": "VIP",
+      "id": 7
+    },
+    {
+      "firstname": "Maraga",
+      "lastname": "Esther",
+      "email": "essy44@gmail.com",
+      "seatno": "10",
+      "typeofaccess": "standard",
+      "id": 7
+    },
+    {
+      "firstname": "John",
+      "lastname": "Maina",
+      "email": "johnmaina@gmail.com",
+      "seatno": "11",
+      "typeofaccess": "VIP",
+      "id": 7
+    },
+    {
+      "firstname": "Lornah",
+      "lastname": "Dande",
+      "email": "dande01@gmail.com",
+      "seatno": "9",
+      "typeofaccess": "standard",
+      "id": 7
+    },
+    {
+      "firstname": "Amos",
+      "lastname": "Onyango",
+      "email": "amosonyango@gmail.com",
+      "seatno": "18",
+      "typeofaccess": "VIP",
+      "id": 7
+    },
+    {
+      "firstname": "Paula",
+      "lastname": "Bracho",
+      "email": "bracho77@gmail.com",
+      "seatno": "12",
+      "typeofaccess": "standard",
+      "id": 7
+    },
+    {
+      "firstname": "Evance",
+      "lastname": "Ochieng",
+      "email": "ochie15@gmail.com",
+      "seatno": "19",
+      "typeofaccess": "VIP",
+      "id": 7
+    }
+  ],
+  "events": [
+    {
+      "typeofevent": "babyshower",
+      "date": "2023-04-30",
+      "time": "18:41",
+      "numberofguests": "30",
+      "id": 3
+    },
+    {
+      "typeofevent": "wedding",
+      "date": "2024-01-03",
+      "time": "09:00",
+      "numberofguests": "300",
+      "id": 4
+    },
+    {
+      "typeofevent": "babyshower",
+      "date": "2023-03-15",
+      "time": "02:52",
+      "numberofguests": "20",
+      "id": 5
+    },
+    {
+      "typeofevent": "galadinner",
+      "date": "2023-02-11",
+      "time": "22:18",
+      "numberofguests": "100",
+      "id": 6
+    }
+  ]
+}
