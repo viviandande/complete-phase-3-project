@@ -36,7 +36,7 @@ class ApplicationController < Sinatra::Base
     end
 
     get'/getevent/:id' do
-        Event.find(params[:id]).to_json
+        Event.find(params[:id]).to_json(include: :guests)
     end
 
     post '/events' do
