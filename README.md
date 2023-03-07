@@ -34,11 +34,29 @@ An Event planning  website
 ## How to Run Back End
 >  run rake server.
 *****
+![](./ProjectERD.png)
+
+## Tables
+## Guests
+
+   |firstname|lastname|email|seatno|typeofaccess|
+   |---------|--------|-----|------|-------------|
+
+## Events
+
+   |event_id|guest_id|
+   |---------|--------|
+## Venues
+
+   |typeofevent|date|time|numberofguests|
+   |-----------|----|----|-----------|
+
+
 
 ## Contact Information
 * Email : viviandande16@gmail.com
 *****
-## [License](https://github.com/viviandande/phase-2-independent-project/blob/main/License)
+## License
 MIT License
 Copyright (c) 2023 Vivian Dande
 
