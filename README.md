@@ -34,7 +34,7 @@ An Event planning  website
 ## How to Run Back End
 >  run rake server.
 *****
-![](./ProjectERD.png)
+
 
 ## Tables
 ## Guests
@@ -51,7 +51,8 @@ An Event planning  website
    |typeofevent|date|time|numberofguests|
    |-----------|----|----|-----------|
 
-
+********
+![](./ProjectERD.png)
 
 ## Contact Information
 * Email : viviandande16@gmail.com
